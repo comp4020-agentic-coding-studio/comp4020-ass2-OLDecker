@@ -52,10 +52,9 @@ export const courseMeta = slopCourseMetaSchema.parse({
   startDate: "2027-02-22",
   endDate: "2027-05-28",
   description:
-    "How the sequence of a protein folds into the shape that makes it work, " +
-    "and how to read, model and question that shape computationally. You will " +
-    "handle real structures from the Protein Data Bank, render and interrogate " +
-    "them in PyMOL, compare experimental methods, and spend the second half of " +
-    "semester analysing one structure of your choosing in depth.",
+    "How a protein's sequence folds into the shape that makes it work, and " +
+    "how to read, model and question that shape computationally: real PDB " +
+    "structures, PyMOL, experimental methods compared, and a semester-long " +
+    "analysis of one structure of your choosing.",
   tags: ["structural biology", "computational biology"],
 }) satisfies CourseMetaInput;

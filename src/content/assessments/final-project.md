@@ -9,7 +9,7 @@ weight: 60
 marking:
   mode: holistic
   description:
-    The final project is judged as a whole against the brief: whether the
+    The final project is judged as a whole against the brief --- whether the
     structural reading is accurate, whether the analysis goes past what week
     2's first review already covered, and whether the report stands alone
     for a reader who has never seen your structure. Presentation quality
