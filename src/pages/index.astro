@@ -5,33 +5,37 @@ import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
 import heroImage from "../assets/images/hero-home.avif";
 import { courseMeta } from "../course-config";
 import { sessionLabels, siteConfig } from "../site-config";
-
-// STARTER_CONTENT: replace the hero artwork and its alt text below, then
-// remove this comment.
 ---
 
 <ContentLayout
   title={`${courseMeta.code}: ${courseMeta.title}`}
   description={courseMeta.description}
   heroImage={heroImage}
-  heroImageAlt="A lecture theatre reduced to flat gold and black shapes, rows of seats sweeping past the frame, in a two-ink risograph print"
+  heroImageAlt="Two interleaved sine-wave strands, gold and black on warm cream, crossed by short rungs like a schematic helix, in a two-ink risograph print"
   {...siteConfig}
 >
   <ul class="course-tags" aria-label="Course tags">
     {courseMeta.tags.map((tag) => <li>{tag}</li>)}
   </ul>
 
-  <!-- STARTER_CONTENT: replace the authored page below, then remove this comment. -->
   <h2>What you will do</h2>
   <p>
-    Say what a student spends their time on — the making, reading, arguing or
-    measuring that fills the weeks. Name the artefact they walk out with.
+    You will spend the semester handling real protein structures: fetching them
+    from the Protein Data Bank, rendering and interrogating them in PyMOL,
+    comparing how different experimental methods see the same molecule, and
+    running and judging a computational structure prediction against the
+    experimental original. In the second half of semester you choose one
+    structure and take it apart in depth — its fold, its binding site, and what
+    its shape tells you about what it does — and hand in that analysis as your
+    final project.
   </p>
 
   <h2>Who it is for</h2>
   <p>
-    Say who this is aimed at and what they need to already know. Be specific
-    enough that someone can rule themselves in or out without emailing you.
+    Anyone comfortable with first-year biology and willing to learn a new piece
+    of software (PyMOL) from scratch. No prior structural biology or
+    programming experience is assumed; you should already be able to read a
+    protein sequence and know roughly what an amino acid is.
   </p>
 
   <h2>Where to go next</h2>

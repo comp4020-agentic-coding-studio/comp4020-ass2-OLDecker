@@ -1,17 +1,19 @@
 ---
 title: Idris Fenn
 description:
-  A tutor working across the course's first reviews and the practical work that
-  follows them.
+  Tutor running the weekly PyMOL sessions and the first port of call for
+  anything that will not render.
 affiliation: Slop University School of Invented Disciplines
 role: tutor
 email: idris.fenn@slop.university
 contact: Ask during sessions, or email when a question cannot wait until the next one.
-photo: ./idris-fenn.avif
-photoAlt: A stylised portrait of a person facing the viewer, flat gold and black shapes on warm cream, in a two-ink risograph print
+published: true
 ---
 
-<!-- STARTER_CONTENT: replace this person entry, then remove this comment. -->
+Idris runs the weekly hands-on sessions — the PyMOL clinics, the alignment
+labs, the project consultations — and marks Assignment 1. If a selection
+won't render, a script won't run, or a structure looks wrong and you can't
+tell why, Idris is faster than the PyMOL wiki.
 
-Replace this entry. A second person makes the listing, role ordering and
-teacher-reference fields visible before you replace the cast with your own.
+Idris does not set or change course-level deadlines or weights; for those,
+ask Marisol.

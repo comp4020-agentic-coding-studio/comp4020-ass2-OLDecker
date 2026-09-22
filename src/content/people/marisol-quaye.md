@@ -1,21 +1,20 @@
 ---
 title: Marisol Quaye
 description:
-  The founding convenor, responsible for the course's shape and its weekly
-  teaching programme.
+  Founding convenor, structural biologist by training, responsible for the
+  course's shape and its weekly lectures.
 affiliation: Slop University School of Invented Disciplines
 role: convenor
 email: marisol.quaye@slop.university
 contact: Email for course-level questions; use the weekly session for feedback on work.
-photo: ./marisol-quaye.avif
-photoAlt: A stylised portrait of a person in three-quarter view, flat gold and black shapes on warm cream, in a two-ink risograph print
+published: true
 ---
 
-<!-- STARTER_CONTENT: replace this person entry, then remove this comment. -->
+Marisol solved her first crystal structure as a PhD student and has been
+arguing with electron density maps ever since. She convenes SLOP1795, writes
+the weekly lectures, and marks the final project.
 
-Replace this entry. A people page carries a short bio and whatever a student
-needs in order to contact the right person for the right thing --- and nothing
-that will be stale by week 3.
-
-Consultation hours, contact preferences and the escalation path (who to ask
-first, who to ask when that does not work) are the parts students actually read.
+Office hours are announced in the first lecture and repeated on the
+[policies](/policies/) page. If a question is about the course itself —
+scope, deadlines, what counts as a fair use of a computational tool — email
+her directly rather than asking in a session.
