@@ -40,23 +40,22 @@ export const slopCourseMetaSchema = z
 
 // The single source of truth for the course record. The generated homepage,
 // navigation label and /api/index.json all read this object.
-// Replace every placeholder value, but keep the shape: the catalogue ingests
-// this API contract when the course is published.
 //
 // The code's last three digits were assigned to this repo when it was
-// provisioned, and no other course in the cohort has them. Change the first
-// digit to your course's level (and `level` to match); keep the other three.
-// STARTER_CONTENT: replace this course record, then remove this comment.
+// provisioned, and no other course in the cohort has them.
 export const courseMeta = slopCourseMetaSchema.parse({
   code: "SLOP1795",
-  title: "Course Title Goes Here",
+  title: "Computational Protein Structure",
   session: "Semester 1",
   year: 2027,
   level: 1,
   startDate: "2027-02-22",
   endDate: "2027-05-28",
   description:
-    "One concise paragraph explaining what this course is, who it is for, " +
-    "and why somebody would choose to spend a semester taking it.",
-  tags: ["replace me"],
+    "How the sequence of a protein folds into the shape that makes it work, " +
+    "and how to read, model and question that shape computationally. You will " +
+    "handle real structures from the Protein Data Bank, render and interrogate " +
+    "them in PyMOL, compare experimental methods, and spend the second half of " +
+    "semester analysing one structure of your choosing in depth.",
+  tags: ["structural biology", "computational biology"],
 }) satisfies CourseMetaInput;
