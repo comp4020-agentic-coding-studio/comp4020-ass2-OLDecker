@@ -1,8 +1,8 @@
 ---
-title: Opening lecture
+title: "Why structure?"
 description:
-  The first lecture — what the course is, why it is shaped this way, and what
-  happens in week 1
+  Opening lecture — why a protein's shape is worth a semester, and how the
+  weeks ahead are organised
 week: 1
 date: 2027-02-22
 teachers:
@@ -12,19 +12,17 @@ related:
   - sessions/01-getting-started
 ---
 
-<!-- STARTER_CONTENT: replace this lecture, then remove this comment. -->
-
-Replace this page. A lecture entry says what was covered and links to the pages
-that own the detail, so the lecture stays short and nothing is explained twice.
-
-The `related:` ref above is a graph edge: it renders on this page and on the
-session's, so declare a connection once, on whichever side is convenient.
-
-The page renders its `slides:` link automatically. Decks are markdown too,
-under `src/decks/`; the path is part of the lecture's API metadata.
+A sequence tells you what a protein is made of; a structure tells you what it
+does. This lecture makes that case with a handful of proteins whose function
+only becomes obvious once you can see their shape — a channel, a hinge, an
+active site shaped exactly like the molecule it binds — and then lays out how
+the semester gets you from "here is a sequence" to being able to read, judge
+and question a structure yourself.
 
 ## Outline
 
-- what the course is for
-- how the weeks are shaped
-- what to do before the first session
+- what a structure explains that a sequence alone can't
+- where structures come from: the Protein Data Bank as the field's shared archive
+- the shape of the semester — experimental methods, then prediction, then your
+  own structure for the final project
+- what to install before [Friday's session](/sessions/01-getting-started/)

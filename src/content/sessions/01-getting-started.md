@@ -1,36 +1,36 @@
 ---
 title: Getting started
 description:
-  The first session of the semester — what to have working before you arrive,
-  and what happens once you do
+  The first session — installing PyMOL, fetching your first structure from the
+  PDB, and finding your way around it
 week: 1
 date: 2027-02-22
 teachers:
-  - marisol-quaye
+  - idris-fenn
 spec:
-  - your development environment runs the course's toolchain
-  - you can build and preview the site locally
-  - you have something, however rough, to show the class
+  - PyMOL is installed and opens on your own machine
+  - you can fetch a PDB entry by its four-character ID and have it render
+  - you can name the entry you fetched and say, in one sentence, what protein it is
+related:
+  - lectures/week-01
 ---
-
-<!-- STARTER_CONTENT: replace this session, then remove this comment. -->
-
-Replace this page. A session brief tells a student three things: what to bring,
-what will happen, and how to tell afterwards whether it went well.
 
 ## Before the session
 
-The `spec` above is the contract. Write each line so a reader can tell whether
-it has been met without asking you --- that is the difference between a spec and
-a wish.
+Install PyMOL (the open-source build; a link is on the [policies](/policies/)
+page) and confirm it opens. Bring a laptop that can run it — the lab machines
+have it installed if yours can't.
 
 ## In the session
 
-Say how the time is actually spent, in the order it happens. If the session runs
-to a repeating shape --- a demo, then feedback, then work time --- name the
-parts and say roughly how long each takes. Students plan against it.
+A short live demo — `fetch`, a couple of `show` and `color` commands, saving a
+session file — then everyone repeats it against a structure of their own
+choosing. Pick anything you're curious about: your favourite enzyme, a protein
+from a disease you've read about, whatever. By the end you should be able to
+fetch an arbitrary four-character PDB ID and get a sensible-looking cartoon on
+screen.
 
 ## Afterwards
 
-Say what leaves the session: a mark, a piece of feedback, a decision about the
-next week's work.
+Nothing is marked this week. What you fetch and render becomes the running
+example you bring back in week 2's [first review](/sessions/02-first-review/).
