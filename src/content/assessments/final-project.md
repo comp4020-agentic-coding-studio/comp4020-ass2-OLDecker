@@ -1,38 +1,49 @@
 ---
-title: Final project
+title: Final project — a structure of your own
 description:
-  The capstone — a placeholder brief for the larger piece of work the semester
-  builds towards
+  The capstone — a self-chosen PDB structure taken apart in depth, from how
+  it was solved to what its shape tells you about its function
 week: 12
 due: 2027-05-28T12:00:00+10:00
 weight: 60
 marking:
   mode: holistic
   description:
-    The final project is judged as a whole against the brief, with particular
-    attention to whether the result stands alone and whether its scope fits the
-    semester that produced it.
+    The final project is judged as a whole against the brief: whether the
+    structural reading is accurate, whether the analysis goes past what week
+    2's first review already covered, and whether the report stands alone
+    for a reader who has never seen your structure. Presentation quality
+    (week 12's showcase) informs but does not replace the written report.
 spec:
-  - submitted by the deadline, in the format named below
-  - it stands on its own, without you there to explain it
-  - it answers the brief rather than restating it
+  - submitted as a PDF by the deadline, naming the PDB entry chosen in week 10
+  - covers how the structure was solved, its fold, and a specific functional region, each supported by a labelled figure you generated
+  - includes the PyMOL script (or scripts) used to generate the figures, as an appendix or linked repository
+  - states what the analysis does not or cannot show, given the structure's method and resolution
+  - any external tool or generated text is declared, per the course's academic integrity policy
+related:
+  - assignment-1
 ---
-
-<!-- STARTER_CONTENT: replace this assessment brief, then remove this comment. -->
-
-Replace this brief. The final project is where a course's weights usually
-concentrate, so it is worth being explicit about how the earlier work feeds it.
 
 ## The brief
 
-> One sentence, again as a blockquote.
+> Take the structure you chose in week 10 apart, and write the account of it
+> you couldn't have written in week 1.
 
-Say what scope is realistic in the time available. A brief that quietly assumes
-twice the available hours is the most common way a capstone goes wrong.
+This is Assignment 1's report, done properly: more structure, more scepticism
+about what the coordinates do and don't support, and a specific functional
+question answered rather than gestured at. If your structure has a ligand or
+an interface, that's usually where the interesting question lives — what
+holds it together, and how confident the underlying experiment or prediction
+lets you be about that.
+
+Scope it to what you pitched in week 10, adjusted for whatever week 11's
+consultation surfaced. A smaller structure analysed precisely beats a large
+one described in generalities.
 
 ## What you submit
 
-The artefact, and whatever a marker needs to run or read it.
-
-This one demonstrates the alternative marking mode: a holistic explanation
-rather than weighted criteria. The site renders either mode from frontmatter.
+A PDF report (1500–2500 words) with figures you generated yourself, plus the
+PyMOL script(s) behind them. If you used an AI tool anywhere in the process —
+drafting, code, figure iteration — declare it and what it did, per the
+[policies](/policies/) page. The [final showcase](/sessions/12-final-showcase/)
+presentation is separate from, and does not replace, this written submission.
