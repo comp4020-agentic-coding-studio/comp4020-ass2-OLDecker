@@ -1,23 +1,30 @@
 ---
-title: Second lecture
+title: The four levels of structure
 description:
-  Week 2 — the first substantive material, and the run-up to the first review
+  Primary, secondary, tertiary and quaternary structure — the vocabulary the
+  rest of semester is built on
 week: 2
 date: 2027-03-01
 teachers:
-  - idris-fenn
+  - marisol-quaye
 related:
   - sessions/02-first-review
-  - assessments/assignment-1
 ---
 
-<!-- STARTER_CONTENT: replace this lecture, then remove this comment. -->
-
-Replace this page. It exists so the lectures listing sorts by week and the
-related block has more than one edge to draw.
+The sequence of amino acids (primary structure) folds into local motifs —
+alpha helices and beta sheets (secondary structure) — which pack into a single
+compact fold (tertiary structure), which sometimes assembles with other
+folded chains into a working complex (quaternary structure). This lecture
+walks that ladder using the structure you fetched last week, so the vocabulary
+attaches to something you've already looked at rather than a diagram.
 
 ## Outline
 
-- the first substantive material, and where it shows up in practice
-- what the first review is looking for
-- reading before next week
+- primary structure: the sequence, and why it's written N-to-C
+- secondary structure: helices and sheets, and how PyMOL colours them by
+  default
+- tertiary structure: the fold as a single object, and why "the same fold"
+  can mean very different sequences
+- quaternary structure: haemoglobin as the standard example of a complex
+  that only works as four chains together
+- what to look for in [this week's review](/sessions/02-first-review/)

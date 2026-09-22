@@ -1,36 +1,34 @@
 ---
 title: First review
 description:
-  The second session, where work made in week 1 meets an audience for the first
-  time
+  The second session — your week 1 structure meets an audience, and you name
+  its levels of structure out loud
 week: 2
 date: 2027-03-01
 teachers:
   - idris-fenn
 spec:
-  - work from week 1 is running and can be shown in under two minutes
-  - you can name the one decision you are least sure about
+  - the structure you fetched in week 1 renders and is on screen within two minutes
+  - you can point to one alpha helix, one beta sheet and (if present) the interface between chains
+  - you can name the one thing about your structure you are least sure you understand
 related:
   - assessments/assignment-1
 ---
 
-<!-- STARTER_CONTENT: replace this session, then remove this comment. -->
-
-Replace this page. It is here so the sessions listing sorts by week, the detail
-route renders a second spec, and the related block has an edge into the
-assessment collection.
-
 ## Before the session
 
-Bring the work from week 1 and the one decision you are least sure about.
+Reopen the structure you fetched in week 1. Have PyMOL running and the
+structure loaded before your slot starts.
 
 ## In the session
 
-Short demos, then feedback aimed at the decision rather than the polish. What
-makes a review worth attending is that the feedback changes what someone does
-next, so build in the time to act on it.
+Two-minute demos, one after another: show your structure, point to a helix, a
+sheet, and — if your protein has more than one chain — the interface between
+them. Then say the one thing about it you're least sure you understand. That
+question is more useful to the room than the demo is.
 
 ## Afterwards
 
-If attendance or participation is worth marks, say so here and link the rule to
-the [assessment page](/assessments/) rather than restating it.
+The habit of reading a structure out loud — naming what you see instead of
+just admiring the render — is what [Assignment 1](/assessments/assignment-1/)
+asks you to do in writing.
